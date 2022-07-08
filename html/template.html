@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>テンプレート</title>
+        <base href="http://www.xxx.yyy/html/">
+        <link rel="stylesheet" href="default.css">
+        <meta name="author" content="SCE">
+        <meta name="description" content="html記述例">
+        <meta name="keywords" content="テンプレート">   
+        <meta property="og:title" content="ページの タイトル" />
+        <meta property="og:description" content="ページのディスクリプション" />
+        <meta property="og:type" content="ページの種類" />
+        <meta property="og:url" content="ページの URL" />
+        <meta property="og:image" content="サムネイル画像の URL" />
+        <meta property="og:site_name" content="サイト名" />
+        <meta property="og:locale" content="ja_JP"  />
+        <meta name="viewport" content="width=device-width,initial-scale=1">     
+        <meta name="robots" content="noindex,nofollow"> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="Content-Style-Type" content="text/css">
+        <meta http-equiv="Content-Script-Type" content="text/javascript"> 
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="Sat, 31 Aug 2002 17:35:42 GMT"> 
+        <style>
+            p.sample {font-weight:bold; color:orange;}
+            p.sample cite {background:orange; color:white; padding:4px;}
+            p.sample em {background:yellow;}
+        </style>
+    </head>    
+    <body>
+        <section>セクションタグサンプル</section>
+        <nav>ナビタグサンプル</nav>
+        <article>記事タグサンプル</article>
+        <aside>補足タグサンプル</aside>
+        <h1>見出し1</h1>
+        <h2>見出し2</h2>
+        <h3>見出し3</h3>
+        <h4>見出し4</h4>
+        <h5>見出し5</h5>
+        <h6>見出し6</h6>
+        <header>ヘッダタグサンプル</header>
+        <footer>フッタタグサンプル</footer>
+        <address>アドレスタグサンプル</address>
+        <p>
+            ひとつの段落（パラグラフ）記述
+            改行テスト(されない)
+        </p>
+        <p class="sample">
+            (sample スタイル) 
+            font = [bold, orange]
+            <em>emタグ</em>
+            <cite>citeタグ</cite>
+        </p>        
+        <hr>
+        <pre>
+            半角スペース や
+            改行をそのまま表示するタグ
+        </pre>
+        <blockquote cite="引用元のURL">引用付き記述を行うタグ</blockquote>
+        <ol>
+            順序のあるリスト用のタグ
+            <li>リストの記述</li>
+            <li>リストの記述</li>
+            <li>リストの記述</li>
+        </ol>
+        <ul>
+            順序のないリスト用のタグ
+            <li>リストの記述</li>
+            <li>リストの記述</li>
+            <li>リストの記述</li>
+        </ul>
+        <dl>
+            定義・説明リスト用のタグ
+            <dt>定義される言葉</dt>
+            <dd>定義の説明</dd>
+        </dl>
+        <figure>
+            図表を表すタグ
+            <figcaption>図の注釈</figcaption>
+        </figure>
+        <div>ひとかたまりの範囲として定義するタグ</div>
+        <main>メインコンテンツであることを示すタグ</main>
+        <a href="url">ハイパーリンク記述タグ</a> 
+        <br>
+        <em>強勢タグ</em> 
+        <br>
+        <strong>強い重要性を表すタグ</strong> 
+        <br>
+        <small>免責・警告・著作権などの注釈や細目を表すタグ</small> 
+        <br>
+        <s>すでに正確ではなくなった内容を表すタグ</s> 
+        <br>
+        <cite>作品のタイトルを表すタグ</cite> 
+        <br>
+        <q cite="引用元URL">引用句・引用文であることを表すタグ</q> 
+        <br>
+        <dfn id="sample">
+            用語が使用されていることを示すタグ 
+            <br> 
+            <abbr title="HyperText Markup Language">
+                略語や頭字語であることを表すタグ
+            </abbr>
+        </dfn>
+        <br> 
+        <time>日付や時刻を正確に示すタグ</time>
+        <br> 
+        <code>プログラムなどのコードであることを示すタグ</code>
+        <br> 
+        <var>変数であることを示すタグ</var>
+        <br> 
+        <samp>プログラムによる出力結果のサンプルであることを示すタグ</samp>
+        <br> 
+        <kbd>ユーザーが入力する内容であることを示すタグ</kbd>
+        <br> 
+        <p>文字<sub>下付き文字を表すタグ</sub></p>
+        <p>文字<sup>上付き文字を表すタグ</sup></p>
+        <i>声や心の中で思ったことなど、他と区別したいテキストを表すタグ</i>
+        <br> 
+        <b>文書内のキーワードや製品名など、他と区別したいテキストを表すタグ</b>
+        <p>文書内の<mark>該当テキストを目立たせるタグ</mark></p>
+        <ruby>ルビ<rp>(</rp><rt>るび</rt>をふる<rp>)</rp></ruby>
+        <p><bdo dir="rtl">文字表記の方向を指定するタグ</bdo></p>
+        <span>ひとつの範囲として定義するタグ</span>
+        <p>brタグ<br>で改行 wbrタグで<wbr>改行しても良い位置を示す</p>
+        <ins>追加された部分であることを示すタグ</ins> 
+        <br> 
+        <del>削除された部分であることを示すタグ</del>
+        <!--コンテンツの埋め込み省略-->
+        <br> 
+        <table>
+            テーブル（表）を作成するタグ
+            <br>
+            <caption>テーブル（表）にキャプションをつけるタグ</caption>
+            colgroup タグ参考
+            <colgroup span="1" style="width:100px; background-color:#FF9900;">
+            <colgroup>
+                col タグ参考
+                <col span="2" style="width:100px; background-color:#FF3300;">
+                <col span="1" style="width:250px; background-color:#FFCC00;">
+            </colgroup>
+            <thead>
+                <tr><th>テーブルヘッダ</th><th>見出しセル</th><th>見出しセル</th><th>見出しセル</th></tr>
+            </thead>
+            <tbody>
+                <tr><th>テーブルボディ</th><td>データセル</td><td>データセル</td><td>データセル</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><th>テーブルフッタ</th><td>データセル</td><td>データセル</td><td>データセル</td></tr>
+            </tfoot>
+        </table>
+        <form action="mail.php" method="post">
+            <p><label>名前：<input type="text" name="name" size="40"></label></p>
+            <p><label>血液型：
+                <select name="blood">
+                    <option value="A">A型</option>
+                    <option value="B">B型</option>
+                    <option value="O">O型</option>
+                    <option value="AB">AB型</option>
+                </select>
+            </label></p>
+            <fieldset>
+                <legend>性別</legend>
+                <p><label><input type="radio" name="sex" value="male">男</label></p>
+                <p><label><input type="radio" name="sex" value="female">女</label></p>
+            </fieldset>
+            <fieldset>
+                <legend>趣味</legend>
+                <p><label><input type="checkbox" name="hobby" value="sports">スポーツ</label></p>
+                <p><label><input type="checkbox" name="hobby" value="reading">読書</label></p>
+                <p><label><input type="checkbox" name="hobby" value="music">音楽</label></p>
+                <p><label><input type="checkbox" name="hobby" value="travel">旅行</label></p>
+            </fieldset>
+            <p><label>コメント：<br><textarea name="comments" rows="2" cols="40"></textarea></label></p>
+            <p><input type="submit" value="送信"><input type="reset" value="リセット"></p>
+            </form> 
+    </body>
+</html>
